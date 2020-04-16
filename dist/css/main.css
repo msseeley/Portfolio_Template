@@ -4,4 +4,19 @@
   box-sizing: border-box; }
 
 body {
-  background: #f4f4f4; }
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.6;
+  background: white; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+ul {
+  list-style: none; }
+
+h2, h3, h4 {
+  text-transform: uppercase; }
+
+img {
+  width: 100%; }

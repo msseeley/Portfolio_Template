@@ -1,6 +1,7 @@
-@import 'color-scheme';
+@import 'variables';
 
 
+// presets / general
 * {
   padding: 0;
   margin: 0;
@@ -8,5 +9,25 @@
 }
 
 body{
-  background: $light-color;
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.6;
+  background: white;
+}
+
+a{
+  text-decoration: none;
+  color: $dark-color;
+}
+
+ul{
+  list-style: none;
+}
+
+h2,h3,h4{
+  text-transform: uppercase;
+}
+
+// keeps imgs in containers
+img{
+  width: 100%
 }
