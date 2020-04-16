@@ -1,3 +1,9 @@
+.container {
+  max-width: 1280px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden; }
+
 * {
   padding: 0;
   margin: 0;
@@ -6,7 +12,7 @@
 body {
   font-family: 'Dosis', sans-serif;
   line-height: 1.6;
-  background: white; }
+  color: white; }
 
 a {
   text-decoration: none;
@@ -20,3 +26,34 @@ h2, h3, h4 {
 
 img {
   width: 100%; }
+
+#logo {
+  width: 8rem;
+  height: 8rem;
+  color: #fff;
+  text-transform: uppercase; }
+
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1 rem; }
+  #main-nav ul {
+    display: flex; }
+  #main-nav li {
+    padding: 1rem 1.5rem; }
+  #main-nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    transition: border-color 0.5s;
+    border-bottom: 3px transparent solid; }
+    #main-nav a:hover {
+      border-color: #ccc; }
+    #main-nav a.current {
+      border-color: #ffbc00; }
+
+#header-home {
+  background: url("../img/showcase.jpg") no-repeat center right/cover;
+  height: 100vh;
+  color: white; }
