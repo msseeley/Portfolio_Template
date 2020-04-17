@@ -32,16 +32,16 @@ img{
   width: 100%;
 }
 
-// Logo
+// *********  LOGO  ***********
 
 #logo{
-  width: 8rem;
-  height: 8rem;
+  width: 70px;
+  height: 70px;
   color: #fff;
   text-transform: uppercase;
 }
 
-//Main-nav
+// *********  MAIN NAV  ***********
 #main-nav{
   display: flex;
   justify-content: space-between;
@@ -72,14 +72,25 @@ img{
   }
 }
 
-// Headers
+// *********  HEADERS  ***********
 
 #header{
+
   &-home{
     background: $bg-image no-repeat center right/cover;
     height: 100vh;
     color:white;
+
+    .header-content {
+      text-align: center;
+      padding-top: 20%;
+      h1 {
+        font-size: 4rem;
+        line-height: 1.2;
+      }
+    }
   }
+
   &-inner{
 
   }
