@@ -59,6 +59,14 @@ input[class^='btn-']:hover {
 .my-4 {
   margin: 4rem 0; }
 
+.section-title {
+  font-size: 2rem;
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase; }
+
 .bottom-line {
   height: 2px;
   width: 8rem;
@@ -151,3 +159,32 @@ img {
       background: #f4f4f4; }
     #home-b .stats div:nth-child(even) {
       background: #ccc; }
+
+#home-c .process {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  text-align: center; }
+  #home-c .process-icon {
+    position: relative;
+    border-radius: 50%;
+    background: #333;
+    color: white;
+    padding: 0.5rem;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    position: relative;
+    transition: all 1s; }
+    #home-c .process-icon .process-step {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      font-size: 28px;
+      background: #ffbc00;
+      border-radius: 50%;
+      height: 15px;
+      width: 15px;
+      line-height: 15px;
+      transition: all 1s; }
