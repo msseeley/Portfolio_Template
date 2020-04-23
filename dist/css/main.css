@@ -59,6 +59,13 @@ input[class^='btn-']:hover {
 .my-4 {
   margin: 4rem 0; }
 
+.bottom-line {
+  height: 2px;
+  width: 8rem;
+  background: #ffbc00;
+  display: block;
+  margin: 0 auto 1rem auto; }
+
 * {
   padding: 0;
   margin: 0;
