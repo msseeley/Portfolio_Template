@@ -193,3 +193,23 @@ img {
     width: 28px;
     line-height: 28px;
     transition: all 1s; }
+
+#main-footer {
+  background: #333;
+  color: #fff;
+  height: 5rem; }
+  #main-footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center; }
+    #main-footer .footer-content .social .fab {
+      margin-right: 1rem;
+      border: 2px #ffff solid;
+      border-radius: 50%;
+      height: 30px;
+      width: 30px;
+      line-height: 26px;
+      text-align: center; }
+      #main-footer .footer-content .social .fab:hover {
+        background: #ffbc00; }

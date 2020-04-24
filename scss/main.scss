@@ -191,6 +191,35 @@ img{
         transition: all 1s;
       }
     }
+  }
+}
+
+// FOOTER
+
+#main-footer{
+  background:$dark-color;
+  color: #fff;
+  height: 5rem;
+
+  .footer-content{
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+
+    .social .fab{
+      margin-right: 1rem;
+      border: 2px #ffff solid;
+      border-radius:50%;
+      height: 30px;
+      width: 30px;
+      line-height: 26px;
+      text-align: center;
+
+      &:hover{
+        background: $main-color;
+      }
+    }
 
   }
 }
