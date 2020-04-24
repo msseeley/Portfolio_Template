@@ -155,32 +155,40 @@ img{
       grid-gap: 1.5rem;
       text-align: center;
 
-
       &-icon{
         position: relative;
         border-radius: 50%;
         background: $dark-color;
-        color: white;
-        padding: 0.5rem;
-        width: 70px;
-        height: 70px;
-        line-height: 70px;
+        color: #ffff;
+        width: 85px;
+        height: 85px;
+        line-height: 85px;
         text-align: center;
-        position: relative;
         transition: all 1s;
 
-        .process-step{
-          position: absolute;
-          top: 0px;
-          right: 0px;
-          font-size: 28px;
+        &:hover{
           background: $main-color;
-          border-radius: 50%;
-          height: 15px;
-          width: 15px;
-          line-height: 15px;
-          transition: all 1s;
+          height: 100px;
+          width:100px;
+          line-height: 100px;
+
+          .process-step{
+            background: $dark-color;
+          }
         }
+      }
+
+      &-step{
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 20px;
+        background: $main-color;
+        border-radius: 50%;
+        height: 28px;
+        width: 28px;
+        line-height: 28px;
+        transition: all 1s;
       }
     }
 

@@ -169,22 +169,27 @@ img {
     position: relative;
     border-radius: 50%;
     background: #333;
-    color: white;
-    padding: 0.5rem;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
+    color: #ffff;
+    width: 85px;
+    height: 85px;
+    line-height: 85px;
     text-align: center;
-    position: relative;
     transition: all 1s; }
-    #home-c .process-icon .process-step {
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      font-size: 28px;
+    #home-c .process-icon:hover {
       background: #ffbc00;
-      border-radius: 50%;
-      height: 15px;
-      width: 15px;
-      line-height: 15px;
-      transition: all 1s; }
+      height: 100px;
+      width: 100px;
+      line-height: 100px; }
+      #home-c .process-icon:hover .process-step {
+        background: #333; }
+  #home-c .process-step {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    background: #ffbc00;
+    border-radius: 50%;
+    height: 28px;
+    width: 28px;
+    line-height: 28px;
+    transition: all 1s; }
