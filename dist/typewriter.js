@@ -11,10 +11,7 @@ class TypeWriter {
   }
 
   type() {
-    //current idx of word
     const current = this.wordIdx % this.words.length;
-
-    // text of current word
     const word = this.words[current];
 
     this.txt = this.isDeleting ?
@@ -24,11 +21,8 @@ class TypeWriter {
     // insert the txt into the element
     this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
 
-    //initial type speed
     let typeSpeed = 200
-
     if (this.isDeleting) typeSpeed /= 2;
-
     if (!this.isDeleting && this.txt === word) {
       typeSpeed = this.wait;
       this.isDeleting = true;
