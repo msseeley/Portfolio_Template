@@ -240,6 +240,23 @@ img{
       margin: 1rem;
     }
   }
+  //Section B
+  &-b{
+    .progress{
+      overflow: hidden;
+      height: 20px;
+      background: $medium-color;
+      border-radius: 5px;
+      margin-bottom: 0.3rem;
+
+      div{
+        height: 100%;
+        color: white;
+        text-align: center;
+        background-color: $main-color;
+      }
+    }
+  }
 }
 
 // FOOTER
