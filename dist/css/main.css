@@ -250,12 +250,19 @@ img {
   height: 20px;
   background: #ccc;
   border-radius: 5px;
-  margin-bottom: 0.3rem; }
+  margin-bottom: 0.6rem; }
   #about-b .progress div {
     height: 100%;
     color: white;
     text-align: center;
     background-color: #ffbc00; }
+
+#about-c .about-logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem; }
+  #about-c .about-logos .img {
+    width: 70%; }
 
 #main-footer {
   background: #333;
