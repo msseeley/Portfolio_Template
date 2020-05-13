@@ -74,6 +74,22 @@ input[class^='btn-']:hover {
   display: block;
   margin: 0 auto 1rem auto; }
 
+.bg-main {
+  background: #ffbc00;
+  color: #fff; }
+
+.bg-light {
+  background: #f4f4f4;
+  color: #000; }
+
+.bg-medium {
+  background: #ccc;
+  color: #000; }
+
+.bg-dark {
+  background: #333;
+  color: #fff; }
+
 * {
   padding: 0;
   margin: 0;
