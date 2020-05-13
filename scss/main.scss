@@ -92,7 +92,10 @@ img{
   }
 
   &-inner{
-
+    //20% x-axis, 30% y-axis positioning on background
+    background: $bg-image no-repeat 20% 30%/cover;
+    height: 5.5rem;
+    border: 3px solid $main-color;
   }
 }
 
