@@ -383,6 +383,10 @@ img {
   grid-template-columns: repeat(3, 1fr);
   text-align: center; }
 
+#contact-c h1 {
+  text-align: center;
+  font-size: 4rem; }
+
 #main-footer {
   background: #333;
   color: #fff;
