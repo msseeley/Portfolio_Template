@@ -466,3 +466,11 @@ img {
       height: 5rem; }
       #main-footer .footer-content .social {
         padding-top: .5rem; } }
+
+@media (max-height: 80px) {
+  #header-home .header-content {
+    padding-top: 3rem; } }
+
+@media (max-height: 330px) {
+  #header-home .header-content h1 {
+    font-size: 2rem; } }

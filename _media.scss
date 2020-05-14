@@ -134,3 +134,24 @@
     }
   }
 }
+
+//Landscape
+
+@media(max-height: 80px){
+  #header-home{
+    .header-content{
+      padding-top: 3rem;
+    }
+  }
+}
+
+//iPhone 5
+@media(max-height:330px){
+  #header-home{
+    .header-content{
+      h1{
+        font-size:2rem;
+      }
+    }
+  }
+}
