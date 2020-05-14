@@ -378,6 +378,11 @@ img {
 #contact-a button[type='submit'] {
   width: 50%; }
 
+#contact-b .contact-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center; }
+
 #main-footer {
   background: #333;
   color: #fff;
